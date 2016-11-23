@@ -1,25 +1,28 @@
-           
-program for_array _while;
+program for_and_while; 
+
 uses
-classes;
+crt; 
 
-var
-number:array [1..10]of integer;
-x:integer;
-sum:integer = 0;
-y:integer = 1;
-begin
-    writeln ('enter 10 number to git the sum ');
-    for x:=1 to 10 do
-    readln (number[x]);
+var 
 
-    writeln('the sum is :');
-   while y <= 10 do
-     sum = sum + number[y];
+number:array[1..10] of integer; 
+x:integer; 
+y:integer=1; 
+sum:integer=0; 
 
+begin 
 
-    writeln(sum);
+writeln('Enter 10 integer to git the sum '); 
 
-    readln;
+for x:=1 to 10 do 
+readln(number[x]); 
 
-end.   
+  while y <= 10 do 
+  begin 
+  sum := sum + number[y]; 
+  y:= y+1; 
+  end; 
+  writeln('the sum is = ',sum ); 
+  readln; 
+
+end.
