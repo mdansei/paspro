@@ -6,7 +6,7 @@ var
 mark:integer;
 
 begin
-   writeln('enter the mark from 1 to 100 to show the grad  ');
+   writeln('enter the mark from 1 to 100 to show the grade :');
 
    repeat
      readln(mark);
@@ -19,7 +19,7 @@ begin
    80..89:writeln ('B');
    90..100:writeln ('A');
    else
-     writeln('Nnt corect ');
+     writeln('Invalid input!');
    end;
-     readln ;
+     readln;
 end.
