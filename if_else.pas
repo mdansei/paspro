@@ -11,7 +11,7 @@ begin
   else if x < 0 then
   writeln(x,' is negative number ')
   else 
-  writeln('its 0');
+  writeln('it/'s 0');
   read; 
   
 end.

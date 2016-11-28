@@ -12,9 +12,9 @@ begin
    until (x >=0) and (y>=0);
 
   if x > y then
-  writeln(x,' is greater then ',y )
+  writeln(x,' is greater than ',y )
   else if y > x then
-  writeln(y,' is greater then ',x)
+  writeln(y,' is greater than ',x)
   else
   writeln(x,' equle ',y);
 

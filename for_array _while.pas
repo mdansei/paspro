@@ -12,7 +12,7 @@ sum:integer=0;
 
 begin 
 
-writeln('Enter 10 integer to git the sum '); 
+writeln('Enter 10 integer to get the sum: '); 
 
 for x:=1 to 10 do 
 readln(number[x]); 
