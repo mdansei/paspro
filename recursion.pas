@@ -1,4 +1,4 @@
-program factorial_function ;
+program recursion;
 uses
 classes;
 
