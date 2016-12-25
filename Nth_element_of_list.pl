@@ -6,7 +6,9 @@ nth(N,[_|T],R):- M is N-1,nth(M,T,R).
 
 
 	 ?- nth(2,[a,b,c,d],R).
-		    R = c
+		   
+		   
+         R = c
 
 
 	
