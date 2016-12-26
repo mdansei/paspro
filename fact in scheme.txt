@@ -1,11 +1,12 @@
  
-this program will calculate the factorial of a number.
+this program will calculate the sum of the number-1.
 
-(define (fact n)
+ (define (add n)
     
       (cond
         ((= n 0) 1)
         ((= n 1) 1)
-        (else (* n (fact (- n 1))))
+        (else (+ n (add(- n 1))))
         ) )
+
 
