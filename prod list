@@ -1,0 +1,9 @@
+(define prod-list (lambda (lst) 
+                    (
+                      if (null? lst )
+                      1 
+                      (* (car lst ) (prod-list (cdr lst ))))))
+                      
+                      // here the answer 
+                      (prod-list '(5 5 2))
+                          => 50
