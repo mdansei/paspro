@@ -1,0 +1,11 @@
+ 
+this program will calculate the factorial of a number.
+
+(define (fact n)
+    
+      (cond
+        ((= n 0) 1)
+        ((= n 1) 1)
+        (else (* n (fact (- n 1))))
+        ) )
+
