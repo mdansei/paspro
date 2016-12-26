@@ -1,0 +1,6 @@
+ (define (multi lis)
+ (cond
+ ((null? lis) 1)
+ (else (* (car lis) (sum (cdr lis))))
+ )
+ )
