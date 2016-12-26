@@ -1,0 +1,12 @@
+ 
+this program is to find element in the list
+
+(define (find lis k)
+ (cond
+  ((null? lis)(display "not there"))
+  ( (eq? (car lis) k)(display "yes it's there"))
+  
+  (else (find (cdr lis) k))
+)
+   
+   )
