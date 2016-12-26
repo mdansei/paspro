@@ -1,0 +1,6 @@
+(define increment (lambda (x) (+ x 1))
+  (increment 5 )
+  
+  \\ 6 
+  \\ increment the value by one 
+  
